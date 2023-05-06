@@ -1,6 +1,7 @@
 import './global.css';
 import style from './App.module.css';
-import { CardPerson } from './components/CardPerson';
+import { CardPerson } from './components/CardPerson/CardPerson';
+import { Contatos } from './components/Contatos/Contatos';
 
 export function App() {
   const listStack = ["JavaScript", "HTML", "CSS", "TypeScript", "React"];
@@ -13,6 +14,12 @@ export function App() {
         name="Thomas E Z de Almeida"
         office="Estudante"
         stacks={listStack}
+      />
+
+      <Contatos
+        avatar="https://randomuser.me/api/portraits/thumb/men/75.jpg"
+        name="Marcus Stephens"
+        phone="(489) 330-2385"
       />
     </div>
 

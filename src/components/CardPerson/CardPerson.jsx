@@ -1,5 +1,5 @@
 import React from "react";
-import { Stack } from "./Stack";
+import { Stack } from "../Stack";
 import style from './CardPerson.module.css';
 
 export function CardPerson ({cover, avatar, name, office, stacks}) {
