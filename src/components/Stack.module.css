@@ -3,7 +3,7 @@ span {
     height: 2.3rem;
   
     display: flex;
-    background: var(--red);
+    background: var(--green);
     border-radius: 4px;
   
     align-items: center;
@@ -13,6 +13,4 @@ span {
     font-weight: 400;
     font-size: 1.2rem;
     line-height: 160%;
-    opacity: 80%;
-    box-shadow: 1px 2px 15px var(--red);
   }
